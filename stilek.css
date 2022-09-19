@@ -7,6 +7,12 @@ header img {
     margin-right: 15px;
 }
 
+li{
+    list-style: none;
+}
+* {
+    box-sizing: border-box;
+}
 #menu1{
     display: flex;
     list-style: none;
@@ -26,16 +32,53 @@ header img {
 #menu1 li a:hover {
     background-color: brown;
 }
+#page, header {
+    max width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 header {
     display: flex;
     align-items: center;
-    max width: 1200px;
     background-color: rgb(154, 179, 179);
-    margin-left: auto;
-    margin-right: auto;
     padding: 15px;
 
 }
+#page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+
+#page aside {
+    width: 20%;
+    
+}
+
+#page main {
+    width: 78%;
+    
+   
+}
+
+#page aside, #page main {
+box-shadow: 0 0 1px 1px rgb(111, 86, 86);
+padding: 15px;
+}
+
+
+
+.product img {
+    max-width: 100px;
+}
+
+
+
+
+
+
+
 @media(max-width: 720px) {
 header {
     flex-direction: column;
