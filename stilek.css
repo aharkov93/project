@@ -37,7 +37,8 @@ a {
     display: block;
 }
 
-#menu1 li a:hover {
+#menu1 li a:hover,
+.active {
     background-color: rgb(89, 45, 45);
 }
 #page, header {
@@ -92,7 +93,7 @@ padding: 15px;
 .product {
     width: 30%;
     border: 2px solid;
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
     text-align: center;
     padding: 15px;
 }
@@ -118,10 +119,49 @@ footer {
     padding: 15px; 0;
     text-align: center;
     max-width: 1200px;
-    margin: 15px auto
-
-    
+    margin: 15px auto  
 }
+
+/*Form registration styles*/
+#form-registration {
+    max-width: 400px;
+    box-shadow: 0 0 3px 2px rgb(22, 13, 13);
+    padding: 15px;
+    margin: 15px auto;
+}
+
+#form-registration .form-text,
+#form-registration .sax-block, 
+#form-registration .subscribe,
+#form-registration textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+
+}
+
+#form-registration .form-text {
+    height: 30px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+#form-registration button {
+   
+    background: green;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer; 
+    transition: 0.5s;
+}
+
+#form-registration button:hover {
+    background: rgb(87, 138, 87);
+
+}
+
 
 @media(max-width: 1060px) {
     .product {
