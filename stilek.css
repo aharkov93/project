@@ -2,6 +2,10 @@ ul, body {
     padding: 0%;
     margin: 0%;
 }
+
+body {
+    margin: 15px;
+}
 header img {
     width: 130px;
     margin-right: 15px;
@@ -91,6 +95,15 @@ padding: 15px;
     margin-bottom: 15px;;
     text-align: center;
     padding: 15px;
+}
+
+#sidebar-menu a {
+    display: block;
+    padding: 8px; 0;
+
+}
+#sidebar-menu a:hover {
+background-color: rgb(106, 116, 120);
 }
 
 @media(max-width: 1060px) {
